@@ -1,0 +1,26 @@
+# ----------------------------------------------------------------------------------------------------------------------
+# ${project.artifactId}, version ${project.version} -  Configuration file.
+# .
+# You will find an explanation of all parameters here:
+# https://github.com/arboriginal/${project.artifactId}/blob/master/src/main/resources/config.yml
+# ----------------------------------------------------------------------------------------------------------------------
+
+forbiddenBlocks:
+- AIR
+- CACTUS
+- CAVE_AIR
+- FIRE
+- LAVA
+- MAGMA_BLOCK
+- VOID_AIR
+# Those block types are ones your pets cannot be teleported on.
+# See here for allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# /!\ Only types which are blocks will work!
+
+petFollowTypes:
+- CAT
+- PARROT
+- WOLF
+# Only those pet types will follow the player (You can for example add "HORSE", even if it's not a vanilla behavior).
+# See here for allowed values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# /!\ Only entities which can be tammed will work! Also, if the pet is sitting, it will not follow the player.

@@ -1,0 +1,19 @@
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+
+author: arboriginal
+dev-url: https://github.com/arboriginal/${project.artifactId}
+
+main: ${project.groupId}.${project.artifactId}.${spigot-main}
+api-version: ${spigot-api}
+
+commands:
+  ttpfix-reload:
+    description: Reload the configuration
+    permission: ttpfix.reload
+
+permissions:
+  ttpfix.reload:
+    description: Allows to reload the configuration.
+    default: op
